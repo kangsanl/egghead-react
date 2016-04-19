@@ -1,0 +1,20 @@
+var React = require('react');
+
+var UserProfiles = React.createClass({
+    propTypes: {
+        username : React.PropTypes.string.isRequired,
+        bio : React.PropTypes.object.isRequired
+    },
+    render:function(){
+        console.log('BIO', this.props.bio);
+        return (
+            <div>
+                <p> USER PROFILE! </p>
+                <p> Username: {this.props.username} </p>
+                <p> Bio: {this.props.bio.name} </p>
+            </div>
+        )
+    }
+});
+
+module.exports = UserProfiles;

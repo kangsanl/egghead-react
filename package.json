@@ -1,0 +1,27 @@
+{
+  "name": "funbook-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kangsanl@stash.ops.expertcity.com/scm/hw16/funbook-front-end.git"
+  },
+  "devDependencies":{
+    "react":"^0.14.3",
+    "react-dom":"^0.14.3",
+    "react-router":"^1.0.1",
+    "reactfire":"^0.5.1",
+    "axios":"^0.8.0",
+    "firebase":"^2.3.2",
+    "babel-core":"^6.3.13",
+    "babel-loader":"^6.2.0",
+    "babel-preset-es2015":"^6.3.13",
+    "babel-preset-react":"^6.3.13"
+  },
+  "author": "",
+  "license": "ISC"
+}
